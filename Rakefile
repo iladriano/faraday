@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "faraday"
+    gem.name = "shin-faraday"
     gem.summary = "HTTP/REST API client library"
     gem.description = "HTTP/REST API client library with pluggable components"
     gem.email = "technoweenie@gmail.com"
-    gem.homepage = "http://github.com/technoweenie/faraday"
-    gem.authors = ["rick"]
+    gem.homepage = "http://github.com/shingara/faraday"
+    gem.authors = ["rick", "Cyril Mougel"]
     gem.add_dependency "rack",        ">= 1.0.1"
     gem.add_dependency "addressable", ">= 2.1.1"
   end
